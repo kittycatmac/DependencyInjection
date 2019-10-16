@@ -9,9 +9,15 @@ namespace DependencyInjection.Controllers
 {
     public class HomeController : Controller
     {
+        private IRepository repository;
+        public HomeController(IRepository repo)
+        {
+            repository = repo;
+        }
+ 
         public IActionResult Index()
         {
-            return View(new Repository().Products);
+            return View(repository.Products);
         }
     }
 }

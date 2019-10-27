@@ -21,3 +21,4 @@
 /Users/dalebard/Desktop/Projects/DependencyInjection/DependencyInjection/DependencyInjection/obj/Debug/netcoreapp2.2/DependencyInjection.pdb
 /Users/dalebard/Desktop/Projects/DependencyInjection/DependencyInjection/DependencyInjection/obj/Debug/netcoreapp2.2/DependencyInjection.csproj.CopyComplete
 /Users/dalebard/Desktop/Projects/DependencyInjection/DependencyInjection/DependencyInjection/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/dalebard/Desktop/Projects/DependencyInjection/DependencyInjection/DependencyInjection/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs

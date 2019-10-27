@@ -33,6 +33,7 @@ namespace DependencyInjection
             });
 
             services.AddTransient<IRepository, Repository>();
+            services.AddTransient<IStorage, Storage>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

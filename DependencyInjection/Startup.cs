@@ -34,6 +34,7 @@ namespace DependencyInjection
 
             services.AddTransient<IRepository, Repository>();
             services.AddTransient<IStorage, Storage>();
+            services.AddTransient<ProductSum>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
